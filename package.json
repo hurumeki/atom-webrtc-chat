@@ -1,0 +1,15 @@
+{
+  "name": "atom-webrtc-chat",
+  "main": "./lib/atom-webrtc-chat",
+  "version": "0.1.0",
+  "description": "package of video chat for Atom by WebRTC",
+  "repository": "https://github.com/hurumeki/atom-webrtc-chat",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+    "peerjs": "*",
+    "atom-space-pen-views": "*"
+  }
+}

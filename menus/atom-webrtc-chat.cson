@@ -1,0 +1,53 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  'atom-text-editor': []
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'WebRTC Chat'
+      'submenu': [
+        {
+          'label': 'Initialize'
+          'command': 'atom-webrtc-chat:initialize'
+        },
+        {
+          'label': 'Toggle View'
+          'command': 'atom-webrtc-chat:toggle-view'
+        },
+        {
+          'label': 'Copy My ID To Clipboard'
+          'command': 'atom-webrtc-chat:copy-my-id-to-clipboard'
+        },
+        {
+          'label': 'Call Start'
+          'command': 'atom-webrtc-chat:call'
+        },
+        {
+          'label': 'Call Close'
+          'command': 'atom-webrtc-chat:close'
+        },
+        {
+          'label': 'Change Video Input Source'
+          'command': 'atom-webrtc-chat:change-video-input-source'
+        },
+        {
+          'label': 'Change Audio Input Source'
+          'command': 'atom-webrtc-chat:change-audio-input-source'
+        },
+        {
+          'label': 'Toggle Video On/Off'
+          'command': 'atom-webrtc-chat:toggle-video'
+        },
+        {
+          'label': 'Toggle Audio On/Off'
+          'command': 'atom-webrtc-chat:toggle-audio'
+        },
+        {
+          'label': 'Send Current Buffer'
+          'command': 'atom-webrtc-chat:send-buffer'
+        }
+      ]
+    ]
+  }
+]

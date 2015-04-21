@@ -1,0 +1,18 @@
+# Keybindings require three things to be fully defined: A selector that is
+# matched against the focused element, the keystroke and the command to
+# execute.
+#
+# Below is a basic keybinding which registers on all platforms by applying to
+# the root workspace element.
+
+# For more detailed documentation see
+# https://atom.io/docs/latest/advanced/keymaps
+'atom-workspace atom-text-editor:not([mini])':
+  'ctrl-alt-b ctrl-alt-i': 'atom-webrtc-chat:initialize'
+  'ctrl-alt-b ctrl-alt-t': 'atom-webrtc-chat:toggle-view'
+  'ctrl-alt-b ctrl-alt-x': 'atom-webrtc-chat:copy-my-id-to-clipboard'
+  'ctrl-alt-b ctrl-alt-c': 'atom-webrtc-chat:call'
+  'ctrl-alt-b ctrl-alt-shift-c': 'atom-webrtc-chat:close'
+  'ctrl-alt-b ctrl-alt-n': 'atom-webrtc-chat:toggle-video'
+  'ctrl-alt-b ctrl-alt-m': 'atom-webrtc-chat:toggle-audio'
+  'ctrl-alt-b ctrl-alt-s': 'atom-webrtc-chat:send-buffer'
